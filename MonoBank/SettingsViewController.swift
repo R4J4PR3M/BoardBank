@@ -87,7 +87,7 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
 		if indexPath.section == 2 {
 			if indexPath.row == 1 {
 				// Contact
-				let mailURL = URL(string: "mailto:richardneitzke.rn+MonoBank@gmail.com")!
+                let mailURL = URL(string: "https://www.rajaprem.com")!
 				UIApplication.shared.openURL(mailURL)
 			} else if indexPath.row == 2 {
 				// Icons8
